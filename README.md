@@ -1,0 +1,1 @@
+This is my first attempt at an independent full stack application/webpage. I am trying to make a project in which a user can build a floral arrangement. They will be able to send the built floral arrangement to a specified email address of their choosing which will then generate an email with an auto text and a picture of the virtual bouquet. Here we go!
