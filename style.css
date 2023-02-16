@@ -13,3 +13,35 @@ header h1{
 .imageList {
     list-style-type: none;
 }
+
+#vaseSidebar{
+    width: 500px;
+    background-color: #553c9a;
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+    float: right;
+    
+}
+
+.vaseImage img {
+    padding: 6px 8px 6px 6px;
+    text-decoration: none;
+    width: 66%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+.vaseImage img:hover {
+    color:#b393d3;
+}
+
+@media screen and (max-height: 450px) {
+    #vaseSidebar {padding-top: 15px;}
+  }
