@@ -15,23 +15,28 @@ header h1{
 }
 
 #vaseSidebar{
-    width: 500px;
+    width: 400px;
     background-color: #553c9a;
     position: relative;
-    height: 100%;
-    overflow-x: hidden;
+    height: 900px;
     float: right;
-    
-}
+    display: grid;
+    grid-template-columns: 50%;
+    grid-gap: 0em;
+    padding: 0em;
+    justify-content: left;
+    min-width: 0;
+    overflow-y: scroll;
+    max-height: 100vh;
+    border-radius: 3%;
+  }
+
+
 
 .vaseImage img {
-    padding: 6px 8px 6px 6px;
-    text-decoration: none;
-    width: 66%;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
+    width: auto;
+    height: auto;
+    cursor: grab;
 }
 
 .img-responsive {
@@ -45,3 +50,11 @@ header h1{
 @media screen and (max-height: 450px) {
     #vaseSidebar {padding-top: 15px;}
   }
+
+  .container {
+    text-align: center;
+  }
+
+  .hide {
+    display: none;
+}
