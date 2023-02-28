@@ -8,6 +8,7 @@ header h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5px;
 }
 
 .imageList {
@@ -17,8 +18,8 @@ header h1{
 #vaseSidebar{
     width: 400px;
     background-color: #553c9a;
-    position: relative;
-    height: 900px;
+    position: absolute;
+    height: 800px;
     float: right;
     display: grid;
     grid-template-columns: 50%;
@@ -29,6 +30,7 @@ header h1{
     overflow-y: scroll;
     max-height: 100vh;
     border-radius: 3%;
+    bottom: 90px;
   }
 
 
@@ -36,12 +38,15 @@ header h1{
 .vaseImage img {
     width: auto;
     height: auto;
-    cursor: grab;
 }
 
+
 .img-responsive {
+    width: auto;
+    height: auto;
     max-width: 100%;
     height: auto;
+    cursor: grab;
 }
 .vaseImage img:hover {
     color:#b393d3;
@@ -57,4 +62,13 @@ header h1{
 
   .hide {
     display: none;
+}
+
+.box {
+    width: 50%;
+    margin: auto;
+    border: 3px dotted black;
+    padding: 10px;
+    z-index: -20;
+    height: 600px;
 }
