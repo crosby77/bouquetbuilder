@@ -34,7 +34,6 @@ header h1{
   }
 
 
-
 .vaseImage img {
     width: auto;
     height: auto;
@@ -48,6 +47,7 @@ header h1{
     height: auto;
     cursor: grab;
 }
+
 .vaseImage img:hover {
     color:#b393d3;
 }
@@ -64,11 +64,15 @@ header h1{
     display: none;
 }
 
-.box {
+#box {
     width: 50%;
     margin: auto;
-    border: 3px dotted black;
+    border: 3px solid black;
     padding: 10px;
     z-index: -20;
     height: 600px;
+}
+
+#box.over{
+    border: 3px dotted #666;
 }
